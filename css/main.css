@@ -1,0 +1,175 @@
+.headlineBg {
+  width: 100%;
+  height: 280px;
+}
+.headlineBg h3 {
+  padding-top: 50px;
+}
+.margin-top25 {
+  margin-top: 25px;
+}
+
+h2.subheader.center-align.margin-top25 {
+  margin-top: -10px;
+}
+h2.margin-top5.subheader.fixedMargin {
+  margin-bottom: -5px;
+}
+
+h4.firstLetter.center {
+  font-size: 2rem;
+  letter-spacing: 0.05rem;
+}
+.firstLetter.center::first-letter {
+  margin-right: 0px;
+  font-size: 3.2rem;
+  font-weight: bolder;
+  float: center;
+
+  line-height: 1;
+}
+.foundersMargin {
+  margin-top: -36px;
+  margin-bottom: -25px;
+}
+img.responsive-img.circle.ourTeam {
+  max-width: 75%;
+}
+h2.subheader.margin-top5.fixedMargin.center {
+  margin-bottom: 15px;
+}
+h4.contactUs.text-blue {
+  margin-top: 85px;
+  margin-bottom: -5px;
+}
+
+img.secondImg {
+  max-width: 100%;
+}
+
+.col.s12.center {
+  margin-top: 20px;
+}
+h3.mission {
+  font-size: 2rem;
+  margin-top: 10px;
+}
+p.missonP {
+  margin-top: 0px;
+}
+
+.col.s12.m6.l6.missionImg {
+  direction: rtl;
+}
+.col.s12.m6.l6.missionImg img.responsive-img.circle {
+  width: 80%;
+}
+.fa-long-arrow-alt-right:before {
+  content: "\f30b";
+  margin-left: 14px;
+  font-size: medium;
+}
+h4.foundersMargin.text-blue {
+  margin-top: revert;
+}
+.hide {
+  display: none;
+}
+.circle2 {
+  border-radius: 50%;
+  margin-top: 30px;
+}
+.section2 {
+  padding-top: 0.5rem;
+  padding-bottom: 2rem;
+}
+
+.input-field input[type="text"]:focus:not([readonly]) + label {
+  color: #000;
+}
+.input-field input[type="tel"]:focus:not([readonly]) + label {
+  color: #000;
+}
+.input-field input[type="email"]:focus:not([readonly]) + label {
+  color: #000;
+}
+.input-field textarea[type="text"]:focus:not([readonly]) + label {
+  color: #000;
+}
+
+/* label underline focus color */
+.input-field input[type="text"]:focus:not([readonly]) {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type="tel"]:focus:not([readonly]) {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field input[type="email"]:focus:not([readonly]) {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+.input-field textarea[type="text"]:focus:not([readonly]) {
+  border-bottom: 1px solid #000;
+  box-shadow: 0 1px 0 0 #000;
+}
+
+@media (max-width: 599px) {
+  .founderWrapper {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .headlineBg h3 {
+    font-size: 2rem;
+  }
+  h2.subheader.center-align.margin-top25 {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+
+  h3.foundersMargin {
+    font-size: 2rem;
+  }
+  h2.subheader.margin-top5 {
+    font-size: 2.1rem;
+    font-weight: 500;
+  }
+  h2.col.offset-s1.s10.offset-s1 {
+    font-size: revert;
+  }
+  .circle2 {
+    margin-top: 0px;
+  }
+  .omImg.col.offset-s2.s8.offset-s2 {
+    width: 90%;
+    margin-left: 20px;
+  }
+  img.responsive-img.circle.ourTeam {
+    max-width: 35%;
+  }
+}
+.center.kontakt-os.row {
+  margin-top: 50px;
+}
+
+i.material-icons.prefix.kontakt-ikons {
+  font-size: 1.2rem;
+  position: initial;
+  width: 1.5rem;
+  /* font-size: 1.2rem;
+  position: absolute;
+  width: 1.5rem;
+  margin-left: 0px;
+  margin-top: -18px; */
+}
+button.bg-my-blue02.btn.kontakt-os-btn.no-caps.waves-dark.waves-effect {
+  margin-top: -30px;
+}
+
+li.glide__slide.glide__slide--active {
+  margin-bottom: 80px;
+}
+.glide__bullets.margin-top25 {
+  margin-bottom: 35px;
+}

@@ -1,0 +1,294 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+#navbarSticky {
+  background-color: #fff;
+  z-index: 100;
+  position: fixed;
+  height: 65px;
+  top: 0;
+  width: 100%;
+  display: block;
+  transition: top 0.3s;
+}
+#slide-out,
+.slowMe {
+  width: 60%;
+  transition: all 0.3s ease;
+  /* 
+  -webkit-transition: -webkit-transform 0.5s
+    cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
+  transition: -webkit-transform 0.5s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
+  transition: transform 0.5s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important;
+  transition: transform 0.5s cubic-bezier(0.53, 0.01, 0.36, 1.63),
+    -webkit-transform 0.5s cubic-bezier(0.53, 0.01, 0.36, 1.63) !important; */
+}
+.sidenav-overlay {
+  /* position: fixed; */
+  top: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  height: 120vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 997;
+  display: none;
+}
+.sidenav-overlay {
+  z-index: 1;
+  background-color: transparent;
+}
+
+.magictime {
+  -webkit-animation-duration: 3s;
+  animation-duration: 3s;
+}
+.navMArginLeft {
+  margin-right: -12vw;
+  padding: 0 55px;
+}
+
+.banner {
+  position: relative;
+  margin-top: 25px;
+  min-height: 85vh;
+  background: url(../Media/Pictures/timewise2.png);
+  background-size: cover;
+  background-position: center;
+}
+a#download-button {
+  margin-top: 18px;
+}
+.textBox {
+  padding: 50px;
+}
+/* .textBox h2 {
+  text-shadow: 7px 2px 10px darkgrey;
+  font-size: 3em;
+  font-weight: 500;
+  line-height: 1.5em;
+} */
+
+.textBox h3 {
+  font-size: 2.5em;
+
+  font-weight: 500;
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+img.Logo {
+  max-width: 60px;
+  margin-top: 5px;
+}
+footer {
+  padding: 25px;
+}
+
+/* modal */
+
+.hide {
+  display: none;
+}
+
+.hideModal {
+  transform: translateX(105%);
+  transition: all 0.5s ease;
+}
+.showModal {
+  /* transform: translateX(-50%); */
+  transition: all 0.5s ease;
+}
+
+/* .modal-background {
+  position: fixed;
+  z-index: 99;
+  left: 0;
+  top: 30%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+} */
+.modal-background {
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  /* bottom: 40%; */
+  bottom: 125px;
+  margin-right: 12px;
+  width: 50%;
+  height: 315px;
+  /* background-color: var(--my-white); */
+  /* border: 1px solid rgba(0, 0, 0, 0.7); */
+  border-radius: 10px;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* display: none; */
+}
+.modal-content {
+  background-color: #fefefe;
+  /* border: 1px solid #7c1f17; */
+  margin: 1em;
+  padding: 2em;
+  height: 315px;
+  border-radius: 0px 50px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.pop-up-call {
+  margin: -40px;
+}
+/* button.waves-effect.waves-dark.btn.no-caps.orange.pop-up-cta {
+  margin: 15px;
+} */
+button.waves-effect.waves-dark.btn.no-caps.bg-my-blue02.pop-up-cta {
+  margin-left: 10px;
+  margin-top: 5px;
+}
+.readMoreNow {
+  display: grid;
+  justify-content: end;
+}
+
+.popup-Image {
+  width: 50%;
+}
+h3.popup-intro-name {
+  font-size: 24px;
+  margin-left: -65px;
+  margin-top: 10px;
+}
+h4.popup-intro-text {
+  margin-left: -65px;
+  margin-top: -18px;
+  font-size: large;
+}
+
+#modalClose i.material-icons.right-align {
+  cursor: pointer;
+  /* background-color: #0648ba; */
+  background-color: #fff;
+  float: right;
+  border-radius: 50%;
+  color: #111;
+  font-size: 28px;
+  margin-top: -31px;
+  margin-right: -28px;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+}
+.back-to-top2 {
+  position: fixed;
+  bottom: 90px;
+  right: 30px;
+  padding: 8px 0px 0px;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 20px;
+  background: #0648ba;
+  color: #fff;
+  cursor: pointer;
+  border: 0;
+  border-radius: 100px;
+  text-decoration: none;
+  transition: opacity 0.2s ease-out;
+  font-size: 20px;
+}
+.back-to-top2 i {
+  width: inherit;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  font-size: 1.6rem;
+  line-height: 40px;
+  margin-top: -7px;
+}
+.back-to-top2:hover {
+  background: #0648ba;
+}
+
+input#tlf-index {
+  margin-top: 35px;
+}
+
+@media (max-width: 992px) {
+  #slide-out,
+  .slowMe {
+    width: 40%;
+  }
+}
+
+@media (max-width: 899px) {
+  .modal-content {
+    height: 290px;
+  }
+  .modal-background {
+    height: 320px;
+    bottom: 100px;
+  }
+  h3.popup-intro-name {
+    font-size: 20px;
+    margin-left: -65px;
+    margin-top: 0px;
+  }
+}
+@media (max-width: 550px) {
+  .modal-background {
+    width: 100%;
+    margin-right: 0px;
+  }
+  .showModal {
+    transform: translateX(0);
+  }
+}
+
+@media only screen and (max-width: 899px) and (orientation: landscape) {
+  .modal-background {
+    bottom: 0px;
+  }
+  .showModal {
+    transform: translateX(-50%);
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  img.Logo {
+    position: relative;
+    right: 10vw;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  nav,
+  nav .nav-wrapper i,
+  nav a.sidenav-trigger,
+  nav a.sidenav-trigger i {
+    height: 64px;
+    line-height: 64px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  img.responsive-img.introPic {
+    bottom: 330px;
+  }
+  .introHeading {
+    font-size: 45px;
+  }
+}
