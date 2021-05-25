@@ -1,3 +1,11 @@
+@import url("https://use.typekit.net/iyc2lxc.css");
+
+.orange-text {
+  font-family: myriad-pro-semi-condensed, sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
 .headlineBg {
   width: 100%;
   height: 280px;
@@ -172,4 +180,9 @@ li.glide__slide.glide__slide--active {
 }
 .glide__bullets.margin-top25 {
   margin-bottom: 35px;
+}
+
+.sectionSpacing {
+  margin-top: 3rem;
+  margin-bottom: 2rem;
 }
